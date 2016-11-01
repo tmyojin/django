@@ -2,6 +2,10 @@ branch-defaults:
   master:
     environment: mysite-dev
     group_suffix: null
+environment-defaults:
+  mysite-dev:
+    branch: null
+    repository: null
 global:
   application_name: mysite
   branch: null
